@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e30f59dd05c642de98e79bc5e84396e7" Name="Diagram1">
+        <EntityTypeShape EntityType="CricketTicketSystemModel.Ticket" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CricketTicketSystemModel.User" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CricketTicketSystemModel.Seat" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="CricketTicketSystemModel.Customer" Width="1.5" PointX="3" PointY="1.125" />
+        <AssociationConnector Association="CricketTicketSystemModel.FK_Customer_Seat" />
+        <AssociationConnector Association="CricketTicketSystemModel.FK_Customer_Ticket" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
